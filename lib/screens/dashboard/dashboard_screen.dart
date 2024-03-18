@@ -8,6 +8,8 @@ import 'package:responsive_ui_design/screens/dashboard/components/storage_detail
 
 
 class DashboardScreen extends StatelessWidget {
+  const DashboardScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
     return SafeArea(
